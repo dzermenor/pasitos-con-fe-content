@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "stories": [
+    {
+      "id": "david-and-goliath",
+      "version": 1,
+      "minAppVersion": 1,
+      "path": "stories/david-and-goliath.json"
+    },
+    {
+      "id": "panes-y-peces",
+      "version": 1,
+      "minAppVersion": 1,
+      "path": "stories/panes-y-peces.json"
+    }
+  ]
+}

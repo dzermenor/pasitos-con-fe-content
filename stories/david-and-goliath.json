@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 2,
+  "id": "david-and-goliath",
+  "version": 1,
+  "title": "David y Goliat",
+  "subtitle": "Una historia de valor, fe y confianza",
+  "bibleReference": "1 Samuel 17",
+  "estimatedMinutes": 5,
+  "coverImage": "images/david-and-goliath/01-cover.webp",
+  "source": {
+    "narrative": "Narración original en español sencillo basada en 1 Samuel 17",
+    "verseTranslation": "Traducción en lenguaje actual (TLA); 1 Samuel 17:40 de Dios habla hoy (DHH)",
+    "license": "Narración del proyecto; texto bíblico de la Traducción en lenguaje actual © Sociedades Bíblicas Unidas, 2000, y de Dios habla hoy © Sociedades Bíblicas Unidas, 1966, 1970, 1979, 1983, 1996",
+    "sourceUrl": "https://www.biblegateway.com/passage/?search=1+Samuel+17&version=TLA"
+  },
+  "scenes": [
+    {
+      "id": "cover",
+      "title": "David y Goliat",
+      "text": "Un joven pastor se enfrentó a un gigante al que todo un ejército temía. Esta es una historia de fe, valentía y confianza en Dios.",
+      "image": "images/david-and-goliath/01-cover.webp",
+      "actionLabel": "Comenzar"
+    },
+    {
+      "id": "armies",
+      "title": "Dos ejércitos enfrentados",
+      "text": "El pueblo de Israel, dirigido por el rey Saúl, estaba en guerra contra los filisteos. Ambos ejércitos se encontraban frente a frente, separados por el valle de Elá.",
+      "image": "images/david-and-goliath/02a-armies.webp"
+    },
+    {
+      "id": "challenge",
+      "title": "Un gigante llamado Goliat",
+      "text": "Goliat era un gigante filisteo de la ciudad de Gat. Llevaba una pesada armadura y enormes armas de guerra. Durante cuarenta días desafió a Israel a enviar un hombre que luchara contra él, pero todos tenían miedo.",
+      "image": "images/david-and-goliath/02-challenge.webp"
+    },
+    {
+      "id": "shepherd",
+      "title": "David, un joven pastor",
+      "text": "David era el hijo menor de Isaí, un hombre de Belén. Mientras sus tres hermanos mayores servían en el ejército del rey Saúl, David cuidaba las ovejas de su padre.",
+      "image": "images/david-and-goliath/03a-shepherd.webp"
+    },
+    {
+      "id": "arrival",
+      "title": "David llegó al campamento",
+      "text": "Un día, Isaí envió a David con alimentos para sus hermanos. Al llegar al campamento, escuchó a Goliat desafiar al ejército de Israel y al Dios viviente.",
+      "image": "images/david-and-goliath/03-arrival.webp"
+    },
+    {
+      "id": "memory",
+      "title": "Dios ya lo había ayudado",
+      "text": "David ofreció enfrentarse al gigante. Cuando el rey Saúl dudó porque era muy joven, David recordó que Dios lo había protegido del león y del oso mientras defendía sus ovejas.",
+      "image": "images/david-and-goliath/04-memory.webp"
+    },
+    {
+      "id": "saul-armor",
+      "title": "Saúl ofrece su armadura",
+      "text": "Saúl aceptó que David enfrentara a Goliat y le ofreció su propia armadura, junto con un casco y una espada, para prepararlo para el combate.",
+      "image": "images/david-and-goliath/05a-saul-armor.webp"
+    },
+    {
+      "id": "armor",
+      "title": "David decide ir sin armadura",
+      "text": "David intentó caminar con aquella armadura, pero no estaba acostumbrado a usarla. Se la quitó y decidió llevar su bastón, su honda y las herramientas que conocía como pastor.",
+      "image": "images/david-and-goliath/05-armor.webp"
+    },
+    {
+      "id": "your-turn",
+      "title": "AHORA ES TU TURNO",
+      "text": "Ayuda a David a derrotar a Goliat.",
+      "image": "images/david-and-goliath/07-your-turn.webp",
+      "actionLabel": "¡Vamos!"
+    },
+    {
+      "id": "stones",
+      "title": "Cinco piedras lisas",
+      "text": "David fue al arroyo, escogió cinco piedras lisas y las guardó en su bolsa de pastor. Toca solo las piedras lisas del arroyo.",
+      "image": "images/david-and-goliath/08-stones.webp",
+      "verse": {
+        "text": "…tomó su bastón, escogió cinco piedras lisas del arroyo, las metió en la bolsa que traía consigo y, con su honda en la mano, se enfrentó con el filisteo.",
+        "reference": "1 Samuel 17:40 (DHH)"
+      },
+      "interaction": {
+        "type": "COLLECT",
+        "count": 5,
+        "itemLabel": "Piedra lisa",
+        "itemImages": [
+          "images/david-and-goliath/piedra-lisa-01.webp",
+          "images/david-and-goliath/piedra-lisa-02.webp",
+          "images/david-and-goliath/piedra-lisa-03.webp",
+          "images/david-and-goliath/piedra-lisa-04.webp",
+          "images/david-and-goliath/piedra-lisa-05.webp"
+        ],
+        "wrongItemLabel": "Piedra rugosa",
+        "wrongItemImages": [
+          "images/david-and-goliath/piedra-rugosa-01.webp",
+          "images/david-and-goliath/piedra-rugosa-02.webp",
+          "images/david-and-goliath/piedra-rugosa-03.webp"
+        ],
+        "wrongResponse": "Esa piedra no es lisa. David escogió cinco piedras lisas del arroyo (1 Samuel 17:40)."
+      }
+    },
+    {
+      "id": "declaration",
+      "title": "David confió en Dios",
+      "text": "Después avanzó hacia Goliat, confiando en Dios. Goliat se burló de David al verlo tan joven y sin armadura. Pero David respondió con valentía, declarando que venía en el nombre de Jehová de los ejércitos.",
+      "image": "images/david-and-goliath/06-declaration.webp",
+      "verse": {
+        "text": "Pero David le contestó: —¡Y tú vienes a pelear conmigo con espada, y flechas y lanza! Pues yo vengo en el nombre del Dios todopoderoso, el Dios de los ejércitos de Israel, a quien te has atrevido a desafiar.",
+        "reference": "1 Samuel 17:45"
+      }
+    },
+    {
+      "id": "sling",
+      "title": "Prepara la honda",
+      "image": "images/david-and-goliath/09-sling.webp",
+      "verse": {
+        "text": "Cuando el filisteo se acercó para atacarlo, David también corrió hacia él…",
+        "reference": "1 Samuel 17:48"
+      },
+      "interaction": {
+        "type": "HOLD",
+        "hint": "Mantén presionado y suelta en la zona dorada",
+        "durationMillis": 1400,
+        "wrongResponse": "David se dio prisa y corrió al combate contra el filisteo (1 Samuel 17:48)."
+      }
+    },
+    {
+      "id": "launch",
+      "title": "Lanza la piedra",
+      "image": "images/david-and-goliath/10-launch.webp",
+      "verse": {
+        "text": "…y, sacando una piedra de su bolsa, disparó su honda y le pegó al filisteo en plena cara. La piedra se le clavó en la frente, y el filisteo cayó de cara al suelo.",
+        "reference": "1 Samuel 17:49"
+      },
+      "interaction": {
+        "type": "TIMING",
+        "hint": "Toca cuando la piedra pase por la zona dorada",
+        "periodMillis": 1600,
+        "itemImage": "images/david-and-goliath/piedra-lisa-01.webp",
+        "wrongResponse": "David tiró la piedra con la honda y le dio al filisteo en la frente (1 Samuel 17:49)."
+      }
+    },
+    {
+      "id": "victory",
+      "title": "David derrota a Goliat",
+      "text": "Cuando Goliat avanzó para atacarlo, David corrió hacia él, tomó una piedra y la lanzó con su honda. La piedra golpeó al gigante en la frente y Goliat cayó al suelo. David lo venció y los filisteos huyeron.",
+      "image": "images/david-and-goliath/11-victory.webp"
+    },
+    {
+      "id": "reflection",
+      "title": "La fe vence al miedo",
+      "text": "David no venció porque tuviera mejores armas o fuera más fuerte. Su valentía nació de confiar en Dios, quien ya lo había ayudado antes. ¿Qué situación difícil necesitas enfrentar hoy con fe?",
+      "image": "images/david-and-goliath/12-reflection.webp",
+      "interaction": {
+        "type": "CHOICE",
+        "options": [
+          {
+            "id": "school",
+            "label": "Un desafío en la escuela",
+            "icon": "⛰️",
+            "response": "Un examen o una tarea difícil puede sentirse como un gigante. Prepárate lo mejor que puedas y pídele a Dios calma y valor: Él te acompaña como acompañó a David."
+          },
+          {
+            "id": "friends",
+            "label": "Mis amistades",
+            "icon": "👥",
+            "response": "Cuando algo con tus amistades se siente grande, no tienes que enfrentarlo solo. Habla con Dios y con un adulto de confianza: Él te acompaña como acompañó a David."
+          },
+          {
+            "id": "other",
+            "label": "Otra cosa",
+            "icon": "💙",
+            "response": "Sea lo que sea, Dios ya lo conoce. Ser valiente no significa no tener miedo: puedes hablar con Él sobre eso, porque te acompaña como acompañó a David."
+          }
+        ],
+        "response": "Ser valiente no significa no tener miedo. Puedes hablar con Dios sobre eso: Él te acompaña como acompañó a David."
+      }
+    }
+  ]
+}

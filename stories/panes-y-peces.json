@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 2,
+  "id": "panes-y-peces",
+  "version": 1,
+  "title": "Jesús alimenta a la multitud",
+  "subtitle": "Una historia de generosidad, fe y provisión",
+  "bibleReference": "Juan 6:1-13; Mateo 14:13-21",
+  "estimatedMinutes": 4,
+  "coverImage": "images/panes-y-peces/01-cover.webp",
+  "source": {
+    "narrative": "Narración original en español sencillo basada en Juan 6:1-13 y Mateo 14:13-21.",
+    "verseTranslation": "Traducción en lenguaje actual (TLA)",
+    "license": "Narración del proyecto; texto bíblico de la Traducción en lenguaje actual © Sociedades Bíblicas Unidas, 2000",
+    "sourceUrl": "https://www.biblegateway.com/passage/?search=Mateo+14&version=TLA"
+  },
+  "scenes": [
+    {
+      "id": "cover",
+      "title": "Jesús alimenta a la multitud",
+      "text": "Miles de personas fueron alimentadas con solo cinco panes y dos peces. Una historia sobre la compasión y el poder de Jesús.",
+      "image": "images/panes-y-peces/01-cover.webp",
+      "actionLabel": "Comenzar"
+    },
+    {
+      "id": "una-multitud-siguio-a-jesus",
+      "title": "Una multitud siguió a Jesús",
+      "text": "Cerca del mar de Galilea, muchas personas seguían a Jesús porque habían visto cómo sanaba a los enfermos. Jesús tuvo compasión de ellas y comenzó a enseñarles.",
+      "image": "images/panes-y-peces/02-una-multitud-siguio-a-jesus.webp"
+    },
+    {
+      "id": "la-gente-tenia-hambre",
+      "title": "La gente necesitaba alimento",
+      "text": "Había pasado mucho tiempo y comenzaba a hacerse tarde. Estaban lejos de los pueblos, así que los discípulos se preocuparon porque aquella enorme multitud necesitaba comer.",
+      "image": "images/panes-y-peces/03-la-gente-tenia-hambre.webp"
+    },
+    {
+      "id": "parecia-imposible",
+      "title": "¿Cómo alimentar a tantas personas?",
+      "text": "Jesús preguntó a Felipe, uno de sus discípulos, dónde podrían comprar pan para todos. Felipe respondió que ni con muchísimo dinero alcanzarían a darles un poco a cada uno.",
+      "image": "images/panes-y-peces/04-parecia-imposible.webp"
+    },
+    {
+      "id": "un-nino-decidio-compartir",
+      "title": "Un niño con cinco panes",
+      "text": "Andrés, otro discípulo de Jesús, habló de un niño que tenía cinco panes de cebada y dos pequeños peces. Pero Andrés se preguntaba cómo podrían alimentar a tantas personas con tan poca comida.",
+      "image": "images/panes-y-peces/05-un-nino-decidio-compartir.webp",
+      "verse": {
+        "text": "—Aquí hay un niño que tiene cinco panes de cebada y dos pescados. Pero eso no alcanzará para repartirlo entre todos.",
+        "reference": "Juan 6:9"
+      }
+    },
+    {
+      "id": "jesus-recibio-la-ofrenda",
+      "title": "Jesús pidió el alimento",
+      "text": "Jesús pidió que le llevaran los panes y los peces. Luego indicó a sus discípulos que organizaran a las personas en grupos para sentarse sobre la hierba.",
+      "image": "images/panes-y-peces/06-jesus-recibio-la-ofrenda.webp"
+    },
+    {
+      "id": "jesus-dio-gracias",
+      "title": "Jesús dio gracias a Dios",
+      "text": "Jesús tomó los cinco panes y los dos peces, miró al cielo y dio gracias a Dios. Después comenzó a entregar el alimento a sus discípulos para que lo repartieran.",
+      "image": "images/panes-y-peces/07-jesus-dio-gracias.webp"
+    },
+    {
+      "id": "prepara-cinco-porciones",
+      "title": "Preparemos el reparto",
+      "text": "Los discípulos comenzaron a llevar el alimento a las personas que esperaban sentadas sobre la hierba. Acompañemos este momento preparando cinco porciones.",
+      "image": "images/panes-y-peces/08-prepara-cinco-porciones.webp",
+      "verse": {
+        "text": "Los discípulos respondieron: —Pero no tenemos más que cinco panes y dos pescados.",
+        "reference": "Mateo 14:17"
+      },
+      "interaction": {
+        "type": "COLLECT",
+        "count": 5,
+        "itemLabel": "porción de pan y pescado",
+        "itemImage": "images/panes-y-peces/item.webp"
+      }
+    },
+    {
+      "id": "reparte-el-alimento",
+      "title": "El alimento alcanzó para todos",
+      "text": "Los discípulos repartieron los panes y los peces entre la multitud. Aunque al principio parecía imposible, todos pudieron recibir alimento.",
+      "image": "images/panes-y-peces/09-reparte-el-alimento.webp",
+      "verse": {
+        "text": "Luego de ordenar que la gente se sentara sobre la hierba, Jesús tomó los cinco panes y los dos pescados, miró al cielo y dio gracias a Dios. Después partió los panes y se los dio a los discípulos, para que ellos los repartieran a la gente.",
+        "reference": "Mateo 14:19"
+      },
+      "interaction": {
+        "type": "DELIVER",
+        "count": 5,
+        "itemLabel": "canasta de pan y pescado",
+        "itemImage": "images/panes-y-peces/item.webp",
+        "targetLabel": "Grupo",
+        "targetIcon": "👨‍👩‍👧",
+        "hint": "Arrastra la canasta a cada grupo"
+      }
+    },
+    {
+      "id": "todos-comieron",
+      "title": "¡Miles de personas comieron!",
+      "text": "Todos comieron hasta quedar satisfechos. La Biblia cuenta que había unos cinco mil hombres, además de las mujeres y los niños.",
+      "image": "images/panes-y-peces/10-todos-comieron.webp",
+      "verse": {
+        "text": "Los que comieron fueron como cinco mil hombres, además de las mujeres y los niños.",
+        "reference": "Mateo 14:21"
+      }
+    },
+    {
+      "id": "doce-canastas",
+      "title": "Cuenta las canastas",
+      "text": "Jesús pidió que recogieran lo que había sobrado para no desperdiciar nada. ¿Cuántas canastas llenaron los discípulos con las sobras?",
+      "image": "images/panes-y-peces/11-doce-canastas.webp",
+      "verse": {
+        "text": "Todos comieron hasta quedar satisfechos. Y cuando los discípulos recogieron los pedazos que sobraron, llenaron doce canastas.",
+        "reference": "Mateo 14:20"
+      },
+      "interaction": {
+        "type": "CHOICE",
+        "options": [
+          { "id": "seis", "label": "6 canastas", "icon": "🧺" },
+          { "id": "diez", "label": "10 canastas", "icon": "🧺" },
+          { "id": "doce", "label": "12 canastas", "icon": "🧺" }
+        ],
+        "correctOptionId": "doce",
+        "response": "¡Muy bien! Los discípulos llenaron doce canastas con las sobras de panes y peces. ¡Jesús dio más que suficiente!",
+        "incorrectResponse": "Esa no es la cantidad de canastas. Los discípulos llenaron canastas con los pedazos que sobraron (Mateo 14:20)."
+      }
+    },
+    {
+      "id": "compartir-con-fe",
+      "title": "Jesús cuida de nosotros",
+      "text": "Jesús vio las necesidades de la multitud y actuó con compasión. Este milagro nos recuerda su poder y su cuidado por las personas. ¿Qué puedes compartir hoy con alguien que lo necesite?",
+      "image": "images/panes-y-peces/12-compartir-con-fe.webp",
+      "interaction": {
+        "type": "CHOICE",
+        "options": [
+          {
+            "id": "mi-tiempo",
+            "label": "Mi tiempo",
+            "icon": "⏰",
+            "response": "Tu tiempo es un regalo. Puedes usarlo para jugar con alguien que está solo, escuchar a tu familia u orar. Jesús puede usar con amor lo que entregamos de corazón."
+          },
+          {
+            "id": "lo-que-tengo",
+            "label": "Lo que tengo",
+            "icon": "🧺",
+            "response": "Como el niño de los cinco panes y dos peces, puedes compartir lo que tienes, aunque parezca poco. Jesús puede usar con amor lo que entregamos de corazón."
+          },
+          {
+            "id": "mi-ayuda",
+            "label": "Mi ayuda",
+            "icon": "🤝",
+            "response": "Ayudar en casa o a un compañero también es compartir. Jesús puede usar con amor lo que entregamos de corazón."
+          }
+        ],
+        "response": "Jesús puede usar con amor lo que entregamos de corazón."
+      }
+    }
+  ]
+}
