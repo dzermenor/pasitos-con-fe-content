@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 2,
+  "id": "noe-y-el-arca",
+  "version": 1,
+  "title": "Noé y el arca",
+  "subtitle": "Confianza, cuidado y una promesa",
+  "bibleReference": "Génesis 6–9",
+  "estimatedMinutes": 3,
+  "coverImage": "images/noe-y-el-arca/01-cover.webp",
+  "source": {
+    "narrative": "Narración original en español sencillo basada en Génesis 6–9; las actividades acompañan el relato sin representar el número total de animales.",
+    "verseTranslation": "Reina-Valera 1909",
+    "license": "Narración del proyecto; texto bíblico de dominio público",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/5881"
+  },
+  "scenes": [
+    {
+      "id": "cover",
+      "title": "Noé y el arca",
+      "text": "Una historia de confianza y esperanza.",
+      "image": "images/noe-y-el-arca/01-cover.webp",
+      "actionLabel": "Comenzar"
+    },
+    {
+      "id": "dios-habla-con-noe",
+      "title": "Noé escucha a Dios",
+      "text": "Dios le pidió a Noé que construyera un arca.",
+      "image": "images/noe-y-el-arca/02-dios-habla-con-noe.webp"
+    },
+    {
+      "id": "construir-el-arca",
+      "title": "Un arca para proteger la vida",
+      "text": "Noé construyó el arca tal como Dios le indicó.",
+      "image": "images/noe-y-el-arca/03-construir-el-arca.webp"
+    },
+    {
+      "id": "los-animales-llegan",
+      "title": "Llegan los animales",
+      "text": "Ayuda a reunir seis animales para entrar al arca.",
+      "image": "images/noe-y-el-arca/04-los-animales-llegan.webp",
+      "interaction": {
+        "type": "COLLECT",
+        "count": 6,
+        "itemLabel": "animales",
+        "itemImage": "images/noe-y-el-arca/item.webp"
+      }
+    },
+    {
+      "id": "entrar-en-el-arca",
+      "title": "Todos a salvo",
+      "text": "Noé, su familia y los animales entraron al arca.",
+      "image": "images/noe-y-el-arca/05-entrar-en-el-arca.webp"
+    },
+    {
+      "id": "comienza-la-lluvia",
+      "title": "La lluvia comienza",
+      "text": "Llovió durante cuarenta días y cuarenta noches.",
+      "image": "images/noe-y-el-arca/06-comienza-la-lluvia.webp"
+    },
+    {
+      "id": "dios-cuida-de-todos",
+      "title": "Dios se acuerda de Noé",
+      "text": "Dentro del arca, la familia esperaba mientras Dios cuidaba de ellos.",
+      "image": "images/noe-y-el-arca/07-dios-cuida-de-todos.webp",
+      "interaction": {
+        "type": "HOLD",
+        "hint": "Mantén presionado para acompañar la espera",
+        "durationMillis": 1800
+      }
+    },
+    {
+      "id": "el-agua-desciende",
+      "title": "El agua comienza a bajar",
+      "text": "Con el tiempo, el arca descansó sobre los montes de Ararat.",
+      "image": "images/noe-y-el-arca/08-el-agua-desciende.webp"
+    },
+    {
+      "id": "noe-envia-la-paloma",
+      "title": "Una paloma busca tierra",
+      "text": "Después de enviar un cuervo, Noé envió una paloma.",
+      "image": "images/noe-y-el-arca/09-noe-envia-la-paloma.webp",
+      "interaction": {
+        "type": "SWIPE",
+        "hint": "Desliza para acompañar el vuelo de la paloma"
+      }
+    },
+    {
+      "id": "la-paloma-regresa",
+      "title": "Una hoja trae esperanza",
+      "text": "La paloma regresó con una hoja de olivo en el pico.",
+      "image": "images/noe-y-el-arca/10-la-paloma-regresa.webp"
+    },
+    {
+      "id": "salir-del-arca",
+      "title": "De nuevo en tierra firme",
+      "text": "Cuando Dios lo indicó, todos salieron y Noé le dio gracias.",
+      "image": "images/noe-y-el-arca/11-salir-del-arca.webp"
+    },
+    {
+      "id": "la-promesa-de-dios",
+      "title": "Una promesa de esperanza",
+      "text": "¿Cómo puedes cuidar hoy lo que Dios te confía?",
+      "image": "images/noe-y-el-arca/12-la-promesa-de-dios.webp",
+      "interaction": {
+        "type": "CHOICE",
+        "options": [
+          {
+            "id": "cuidar-animales",
+            "label": "Cuidar a los animales",
+            "icon": "🐑"
+          },
+          {
+            "id": "ayudar-familia",
+            "label": "Ayudar a mi familia",
+            "icon": "💙"
+          },
+          {
+            "id": "cuidar-naturaleza",
+            "label": "Cuidar la naturaleza",
+            "icon": "🌿"
+          }
+        ],
+        "response": "Dios prometió no volver a destruir toda vida con un diluvio; cuidar su creación es una forma de mostrar gratitud."
+      }
+    }
+  ]
+}
