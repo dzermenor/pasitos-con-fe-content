@@ -39,6 +39,7 @@ jobs:
           cp catalog.json _site/catalog.json
           cp -R stories _site/stories
           if [ -d images ]; then cp -R images _site/images; fi
+          cp -R privacidad _site/privacidad
           touch _site/.nojekyll
       - uses: actions/upload-pages-artifact@v5
         with:
