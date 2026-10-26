@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "id": "noe-y-el-arca",
-  "version": 1,
+  "version": 2,
   "title": "Noé y el arca",
   "subtitle": "Confianza, cuidado y una promesa",
   "bibleReference": "Génesis 6–9",
@@ -41,8 +41,15 @@
       "interaction": {
         "type": "COLLECT",
         "count": 6,
-        "itemLabel": "animales",
-        "itemImage": "images/noe-y-el-arca/item.webp"
+        "itemLabel": "animal",
+        "itemImages": [
+          "images/noe-y-el-arca/animal-01-oveja.webp",
+          "images/noe-y-el-arca/animal-02-elefante.webp",
+          "images/noe-y-el-arca/animal-03-jirafa.webp",
+          "images/noe-y-el-arca/animal-04-rinoceronte.webp",
+          "images/noe-y-el-arca/animal-05-cebra.webp",
+          "images/noe-y-el-arca/animal-06-capibara.webp"
+        ]
       }
     },
     {
