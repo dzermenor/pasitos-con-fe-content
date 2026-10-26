@@ -114,17 +114,20 @@
           {
             "id": "cuidar-animales",
             "label": "Cuidar a los animales",
-            "icon": "🐑"
+            "icon": "🐑",
+            "response": "Noé llevó comida para todos los animales del arca. Tú puedes darle agua y comida a tu mascota o tratar con cariño a los animales que encuentres. Cuidar lo que Dios creó es una forma de darle gracias."
           },
           {
             "id": "ayudar-familia",
             "label": "Ayudar a mi familia",
-            "icon": "💙"
+            "icon": "💙",
+            "response": "Noé y su familia esperaron juntos dentro del arca. Puedes ayudar en casa, tener paciencia con tus hermanos o dar un abrazo a quien lo necesite. Cuidar a tu familia es una forma de darle gracias a Dios."
           },
           {
             "id": "cuidar-naturaleza",
             "label": "Cuidar la naturaleza",
-            "icon": "🌿"
+            "icon": "🌿",
+            "response": "Dios prometió que nunca más destruiría la tierra con un diluvio y puso el arcoíris como señal. Puedes regar una planta, no tirar basura o cuidar el agua. Cuidar lo que Dios creó es una forma de darle gracias."
           }
         ],
         "response": "Dios prometió no volver a destruir toda vida con un diluvio; cuidar su creación es una forma de mostrar gratitud."
