@@ -18,6 +18,12 @@
       "version": 1,
       "minAppVersion": 1,
       "path": "stories/noe-y-el-arca.json"
+    },
+    {
+      "id": "lot-y-su-esposa",
+      "version": 1,
+      "minAppVersion": 1,
+      "path": "stories/lot-y-su-esposa.json"
     }
   ]
 }
