@@ -1,0 +1,195 @@
+{
+  "id": "lot-y-su-esposa",
+  "version": 1,
+  "title": "Lot y su esposa",
+  "subtitle": "Una advertencia en el camino",
+  "bibleReference": "Génesis 11:27; 13:5-13; 18:20-33; 19:1-30",
+  "source": {
+    "narrative": "Narración original en español sencillo basada en Génesis 11:27; 13:5-13; 18:20-33; 19:1-30.",
+    "verseTranslation": "Traducción en lenguaje actual (TLA)",
+    "license": "Narración del proyecto; texto bíblico de la Traducción en lenguaje actual © Sociedades Bíblicas Unidas, 2000",
+    "sourceUrl": "https://www.bible.com/es/bible/176/GEN.19.TLA"
+  },
+  "scenes": [
+    {
+      "id": "cover",
+      "title": "Lot y su esposa",
+      "text": "Lot y su esposa vivían en una ciudad que pronto estaría en peligro.",
+      "image": "images/lot-y-su-esposa/01-cover.webp",
+      "actionLabel": "Comenzar"
+    },
+    {
+      "id": "lot-y-abraham",
+      "title": "Lot y Abraham",
+      "text": "Lot era sobrino de Abraham. Un día se separaron porque sus rebaños necesitaban más espacio.",
+      "image": "images/lot-y-su-esposa/02-lot-y-abraham.webp"
+    },
+    {
+      "id": "una-nueva-ciudad",
+      "title": "Una nueva ciudad",
+      "text": "Lot eligió una llanura y se mudó a Sodoma con su esposa y sus dos hijas.",
+      "image": "images/lot-y-su-esposa/03-una-nueva-ciudad.webp"
+    },
+    {
+      "id": "lo-que-ocurria-alli",
+      "title": "Lo que ocurría allí",
+      "text": "En Sodoma y Gomorra, muchas personas hacían daño a otras. Dios vio lo que pasaba.",
+      "image": "images/lot-y-su-esposa/04-lo-que-ocurria-alli.webp"
+    },
+    {
+      "id": "la-preocupacion-de-abraham",
+      "title": "La preocupación de Abraham",
+      "text": "Abraham habló con Dios porque le preocupaban las personas que hacían el bien.",
+      "image": "images/lot-y-su-esposa/05-la-preocupacion-de-abraham.webp"
+    },
+    {
+      "id": "dos-visitantes",
+      "title": "Dos visitantes",
+      "text": "Una tarde llegaron dos ángeles a Sodoma. Lot los invitó a quedarse en su casa.",
+      "image": "images/lot-y-su-esposa/06-dos-visitantes.webp"
+    },
+    {
+      "id": "una-noche-dificil",
+      "title": "Una noche difícil",
+      "text": "Esa noche, unos hombres rodearon la casa y quisieron hacer daño a los visitantes.",
+      "image": "images/lot-y-su-esposa/07-una-noche-dificil.webp"
+    },
+    {
+      "id": "la-advertencia",
+      "title": "La advertencia",
+      "text": "Los ángeles protegieron a Lot. Le avisaron que Sodoma iba a ser destruida.",
+      "image": "images/lot-y-su-esposa/08-la-advertencia.webp"
+    },
+    {
+      "id": "no-le-creyeron",
+      "title": "No le creyeron",
+      "text": "Lot avisó a los jóvenes que se casarían con sus hijas, pero ellos no le creyeron.",
+      "image": "images/lot-y-su-esposa/09-no-le-creyeron.webp"
+    },
+    {
+      "id": "era-hora-de-salir",
+      "title": "Era hora de salir",
+      "text": "Al amanecer, Lot aún no salía. Los ángeles tomaron de la mano a su familia.",
+      "image": "images/lot-y-su-esposa/10-era-hora-de-salir.webp",
+      "verse": {
+        "text": "los ángeles lo agarraron de la mano",
+        "reference": "Génesis 19:16"
+      },
+      "interaction": {
+        "type": "COLLECT",
+        "count": 4,
+        "itemLabel": "Familia de Lot",
+        "itemImages": [
+          "images/lot-y-su-esposa/item-lot.webp",
+          "images/lot-y-su-esposa/item-esposa.webp",
+          "images/lot-y-su-esposa/item-hija-1.webp",
+          "images/lot-y-su-esposa/item-hija-2.webp"
+        ],
+        "hint": "Toca a cada uno para tomarlo de la mano"
+      }
+    },
+    {
+      "id": "no-miren-atras",
+      "title": "No miren atrás",
+      "text": "Los llevaron fuera de Sodoma y les dijeron que huyeran sin detenerse ni mirar atrás.",
+      "verse": {
+        "text": "¡No miren hacia atrás, ni se detengan en el valle!",
+        "reference": "Génesis 19:17"
+      },
+      "image": "images/lot-y-su-esposa/11-no-miren-atras.webp",
+      "interaction": {
+        "type": "SWIPE",
+        "hint": "Desliza para huir sin mirar atrás"
+      }
+    },
+    {
+      "id": "una-ciudad-cercana",
+      "title": "Una ciudad cercana",
+      "text": "Lot temía no llegar a las montañas. Pidió ir a una pequeña ciudad cercana. ¿A qué ciudad pidió ir Lot?",
+      "image": "images/lot-y-su-esposa/12-una-ciudad-cercana.webp",
+      "verse": {
+        "text": "aquí cerca hay una ciudad pequeña",
+        "reference": "Génesis 19:20"
+      },
+      "interaction": {
+        "type": "CHOICE",
+        "options": [
+          {
+            "id": "montanas",
+            "label": "Las montañas",
+            "icon": "⛰️"
+          },
+          {
+            "id": "zoar",
+            "label": "Zoar",
+            "icon": "🏘️"
+          },
+          {
+            "id": "sodoma",
+            "label": "Regresar a Sodoma",
+            "icon": "🔙"
+          }
+        ],
+        "correctOptionId": "zoar",
+        "response": "Lot pidió ir a Zoar, una pequeña ciudad cercana.",
+        "incorrectResponse": "Ese no fue el lugar que pidió. Lot habló de una ciudad pequeña y cercana (Génesis 19:20)."
+      }
+    },
+    {
+      "id": "llegaron-a-zoar",
+      "title": "Llegaron a Zoar",
+      "text": "Le permitieron ir. Lot llegó a Zoar cuando el sol empezaba a salir.",
+      "image": "images/lot-y-su-esposa/13-llegaron-a-zoar.webp"
+    },
+    {
+      "id": "la-destruccion",
+      "title": "La destrucción",
+      "text": "Entonces cayó fuego sobre Sodoma y Gomorra. Las dos ciudades fueron destruidas.",
+      "image": "images/lot-y-su-esposa/14-la-destruccion.webp"
+    },
+    {
+      "id": "una-mirada-atras",
+      "title": "Una mirada atrás",
+      "text": "La esposa de Lot miró hacia atrás, aunque le habían advertido que no lo hiciera.",
+      "image": "images/lot-y-su-esposa/15-una-mirada-atras.webp"
+    },
+    {
+      "id": "la-columna-de-sal",
+      "title": "La columna de sal",
+      "text": "Se convirtió en una columna de sal. Lot y sus hijas siguieron adelante.",
+      "image": "images/lot-y-su-esposa/16-la-columna-de-sal.webp"
+    },
+    {
+      "id": "un-nuevo-camino",
+      "title": "Un nuevo camino",
+      "text": "Más tarde, Lot y sus dos hijas se fueron a vivir a las montañas. Dios nos ayuda a obedecer y seguir adelante. ¿Qué te ayuda a obedecer cuando es difícil?",
+      "image": "images/lot-y-su-esposa/17-un-nuevo-camino.webp",
+      "interaction": {
+        "type": "CHOICE",
+        "options": [
+          {
+            "id": "orar",
+            "label": "Hablar con Dios",
+            "icon": "🙏",
+            "response": "Puedes pedirle a Dios ayuda para dar el siguiente paso."
+          },
+          {
+            "id": "escuchar",
+            "label": "Escuchar sus palabras",
+            "icon": "📖",
+            "response": "Escuchar lo que Dios enseña puede ayudarte a elegir el camino correcto."
+          },
+          {
+            "id": "pedir-ayuda",
+            "label": "Pedir ayuda",
+            "icon": "🤝",
+            "response": "Puedes pedir ayuda a alguien de confianza y seguir adelante."
+          }
+        ]
+      }
+    }
+  ],
+  "coverImage": "images/lot-y-su-esposa/01-cover.webp",
+  "estimatedMinutes": 5,
+  "schemaVersion": 2
+}
