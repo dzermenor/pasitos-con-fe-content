@@ -134,9 +134,36 @@
       "title": "De nuevo en tierra firme",
       "text": "Cuando la tierra se secó, Dios le dijo a Noé que saliera con su familia y con todos los animales. Lo primero que hizo Noé fue construir un altar para adorar a Dios y darle gracias.",
       "image": "images/noe-y-el-arca/11-salir-del-arca.webp",
+      "interaction": {
+        "type": "FIND",
+        "itemLabel": "animales",
+        "hint": "Toca a los animales que salen del arca",
+        "spots": [
+          { "x": 0.08, "y": 0.40, "radius": 0.09 },
+          { "x": 0.28, "y": 0.31, "radius": 0.07 },
+          { "x": 0.72, "y": 0.32, "radius": 0.07 },
+          { "x": 0.91, "y": 0.58, "radius": 0.08 }
+        ]
+      },
       "verse": {
         "text": "Todos ustedes—tú y tu esposa, y tus hijos y sus esposas—salgan del barco.",
         "reference": "Génesis 8:16"
+      }
+    },
+    {
+      "id": "recuerda-la-historia",
+      "title": "¿Recuerdas cómo pasó?",
+      "text": "Noé confió en Dios paso a paso. Vamos a recordar lo que pasó, desde el principio.",
+      "image": "images/noe-y-el-arca/01-cover.webp",
+      "interaction": {
+        "type": "ORDER",
+        "hint": "Toca los dibujos en el orden en que pasaron",
+        "steps": [
+          { "label": "Noé construye el arca", "image": "images/noe-y-el-arca/03-construir-el-arca.webp" },
+          { "label": "Los animales entran", "image": "images/noe-y-el-arca/05-entrar-en-el-arca.webp" },
+          { "label": "Llueve muchos días", "image": "images/noe-y-el-arca/06-comienza-la-lluvia.webp" },
+          { "label": "La paloma trae una hoja", "image": "images/noe-y-el-arca/10-la-paloma-regresa.webp" }
+        ]
       }
     },
     {
