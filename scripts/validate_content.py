@@ -23,7 +23,49 @@ INTERACTION_MIN_APP_VERSION = {
     "TIMING": 1,
     "DELIVER": 1,
     "CHOICE": 1,
+    "FIND": 3,
+    "ORDER": 3,
 }
+MAX_ORDER_STEPS = 5
+MIN_ORDER_STEPS = 3
+SPOT_RADIUS_RANGE = (0.03, 0.25)
+
+
+def is_number(value) -> bool:
+    return isinstance(value, (int, float)) and not isinstance(value, bool)
+
+
+def validate_find(interaction, prefix, errors):
+    for field in ("itemLabel", "hint"):
+        if not interaction.get(field):
+            errors.append(f"{prefix}: FIND {field} is required")
+    spots = interaction.get("spots") or []
+    if not 1 <= len(spots) <= MAX_ITEMS:
+        errors.append(f"{prefix}: FIND spots needs between 1 and {MAX_ITEMS} spots")
+    for i, spot in enumerate(spots):
+        x, y = spot.get("x"), spot.get("y")
+        if not (is_number(x) and is_number(y) and 0 <= x <= 1 and 0 <= y <= 1):
+            errors.append(f"{prefix}: FIND spots[{i}] x and y must be between 0 and 1")
+        radius = spot.get("radius")
+        low, high = SPOT_RADIUS_RANGE
+        if radius is not None and not (is_number(radius) and low <= radius <= high):
+            errors.append(f"{prefix}: FIND spots[{i}].radius must be between {low} and {high}")
+
+
+def validate_order(interaction, prefix, errors):
+    if not interaction.get("hint"):
+        errors.append(f"{prefix}: ORDER hint is required")
+    steps = interaction.get("steps") or []
+    if not MIN_ORDER_STEPS <= len(steps) <= MAX_ORDER_STEPS:
+        errors.append(f"{prefix}: ORDER steps needs between {MIN_ORDER_STEPS} and {MAX_ORDER_STEPS} steps")
+    labels = [step.get("label") for step in steps]
+    if any(not label for label in labels):
+        errors.append(f"{prefix}: ORDER steps require a label")
+    # Labels name each card for screen readers, so two equal ones could not be told apart.
+    if len(labels) != len(set(labels)):
+        errors.append(f"{prefix}: ORDER steps labels must be unique")
+    for i, step in enumerate(steps):
+        validate_asset(step.get("image"), f"{prefix}.steps[{i}].image", errors)
 
 
 def read_json(path: Path):
@@ -120,6 +162,10 @@ def validate_interaction(interaction, prefix, errors):
         correct = interaction.get("correctOptionId")
         if correct is not None and correct not in ids:
             errors.append(f"{prefix}: CHOICE correctOptionId must match an option id")
+    elif kind == "FIND":
+        validate_find(interaction, prefix, errors)
+    elif kind == "ORDER":
+        validate_order(interaction, prefix, errors)
 
 
 def is_activity(scene) -> bool:
@@ -196,6 +242,9 @@ def validate_story(item, errors):
         validate_asset(scene.get("image"), f"{prefix}.image", errors)
         if scene.get("interaction") is not None:
             validate_interaction(scene["interaction"], prefix, errors)
+            # FIND is played on the scene's own illustration.
+            if isinstance(scene["interaction"], dict) and scene["interaction"].get("type") == "FIND" and not scene.get("image"):
+                errors.append(f"{prefix}: image is required for a FIND interaction")
 
     # Older apps reject unknown mechanics, so the catalog must keep the story away from them.
     kinds = {scene["interaction"].get("type") for scene in scenes if isinstance(scene.get("interaction"), dict)}
