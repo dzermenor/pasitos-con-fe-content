@@ -5,38 +5,46 @@
   "title": "Noé y el arca",
   "subtitle": "Confianza, cuidado y una promesa",
   "bibleReference": "Génesis 6–9",
-  "estimatedMinutes": 3,
+  "estimatedMinutes": 4,
   "coverImage": "images/noe-y-el-arca/01-cover.webp",
   "source": {
     "narrative": "Narración original en español sencillo basada en Génesis 6–9; las actividades acompañan el relato sin representar el número total de animales.",
-    "verseTranslation": "Reina-Valera 1909",
-    "license": "Narración del proyecto; texto bíblico de dominio público",
-    "sourceUrl": "https://www.gutenberg.org/ebooks/5881"
+    "verseTranslation": "Nueva Traducción Viviente (NTV)",
+    "license": "Narración del proyecto; texto bíblico de La Santa Biblia, Nueva Traducción Viviente, © Tyndale House Foundation, 2010. Todos los derechos reservados.",
+    "sourceUrl": "https://www.biblegateway.com/passage/?search=Genesis+6-9&version=NTV"
   },
   "scenes": [
     {
       "id": "cover",
       "title": "Noé y el arca",
-      "text": "Una historia de confianza y esperanza.",
+      "text": "Cuando casi todos se olvidaron de Dios, Noé siguió obedeciéndolo. Esta es una historia de confianza, de cuidado y de una promesa que todavía vemos en el cielo.",
       "image": "images/noe-y-el-arca/01-cover.webp",
       "actionLabel": "Comenzar"
     },
     {
       "id": "dios-habla-con-noe",
       "title": "Noé escucha a Dios",
-      "text": "Dios le pidió a Noé que construyera un arca.",
-      "image": "images/noe-y-el-arca/02-dios-habla-con-noe.webp"
+      "text": "La gente se portaba mal y se hacía daño, pero Noé amaba a Dios. Un día, Dios le avisó que vendría un gran diluvio y le pidió construir un arca: un enorme barco de madera para proteger a su familia y a los animales.",
+      "image": "images/noe-y-el-arca/02-dios-habla-con-noe.webp",
+      "verse": {
+        "text": "Pero Noé encontró favor delante del Señor.",
+        "reference": "Génesis 6:8"
+      }
     },
     {
       "id": "construir-el-arca",
       "title": "Un arca para proteger la vida",
-      "text": "Noé construyó el arca tal como Dios le indicó.",
-      "image": "images/noe-y-el-arca/03-construir-el-arca.webp"
+      "text": "Noé y sus hijos trabajaron mucho tiempo. Cortaron madera y cubrieron el arca con brea por dentro y por fuera para que no entrara el agua. También guardaron comida para todos.",
+      "image": "images/noe-y-el-arca/03-construir-el-arca.webp",
+      "verse": {
+        "text": "Entonces Noé hizo todo exactamente como Dios se lo había ordenado.",
+        "reference": "Génesis 6:22"
+      }
     },
     {
       "id": "los-animales-llegan",
       "title": "Llegan los animales",
-      "text": "Ayuda a reunir seis animales para entrar al arca.",
+      "text": "Animales de toda clase llegaron al arca de dos en dos: un macho y una hembra. Ayuda a Noé a guiar a estos animales hasta la entrada.",
       "image": "images/noe-y-el-arca/04-los-animales-llegan.webp",
       "interaction": {
         "type": "COLLECT",
@@ -55,37 +63,57 @@
     {
       "id": "entrar-en-el-arca",
       "title": "Todos a salvo",
-      "text": "Noé, su familia y los animales entraron al arca.",
-      "image": "images/noe-y-el-arca/05-entrar-en-el-arca.webp"
+      "text": "Noé entró al arca con su esposa, sus tres hijos y las esposas de ellos. Detrás entraron los animales. Cuando todos estuvieron adentro, Dios mismo cerró la puerta.",
+      "image": "images/noe-y-el-arca/05-entrar-en-el-arca.webp",
+      "verse": {
+        "text": "Entraron en el barco por parejas—macho y hembra—tal como Dios había ordenado a Noé.",
+        "reference": "Génesis 7:9"
+      }
     },
     {
       "id": "comienza-la-lluvia",
       "title": "La lluvia comienza",
-      "text": "Llovió durante cuarenta días y cuarenta noches.",
-      "image": "images/noe-y-el-arca/06-comienza-la-lluvia.webp"
+      "text": "Entonces empezó a llover. Llovió durante cuarenta días y cuarenta noches, y el agua cubrió toda la tierra. Pero el arca flotaba segura sobre las olas.",
+      "image": "images/noe-y-el-arca/06-comienza-la-lluvia.webp",
+      "verse": {
+        "text": "La lluvia continuó cayendo durante cuarenta días y cuarenta noches.",
+        "reference": "Génesis 7:12"
+      }
     },
     {
       "id": "dios-cuida-de-todos",
       "title": "Dios se acuerda de Noé",
-      "text": "Dentro del arca, la familia esperaba mientras Dios cuidaba de ellos.",
+      "text": "Pasaron muchos días dentro del arca. La familia daba de comer a los animales y esperaba con paciencia. Dios no se olvidó de ellos. Ayuda a Noé a llenar el comedero.",
       "image": "images/noe-y-el-arca/07-dios-cuida-de-todos.webp",
+      "verse": {
+        "text": "Entonces Dios se acordó de Noé y de todos los animales salvajes y domésticos que estaban con él en el barco…",
+        "reference": "Génesis 8:1"
+      },
       "interaction": {
         "type": "HOLD",
-        "hint": "Mantén presionado para acompañar la espera",
+        "hint": "Mantén presionado y suelta en la zona dorada",
         "durationMillis": 1800
       }
     },
     {
       "id": "el-agua-desciende",
       "title": "El agua comienza a bajar",
-      "text": "Con el tiempo, el arca descansó sobre los montes de Ararat.",
-      "image": "images/noe-y-el-arca/08-el-agua-desciende.webp"
+      "text": "Dios hizo soplar un viento y el agua fue bajando poco a poco. Un día, el arca se detuvo sobre las montañas de Ararat.",
+      "image": "images/noe-y-el-arca/08-el-agua-desciende.webp",
+      "verse": {
+        "text": "…exactamente cinco meses después de que comenzó el diluvio, el barco se detuvo sobre las montañas de Ararat.",
+        "reference": "Génesis 8:4"
+      }
     },
     {
       "id": "noe-envia-la-paloma",
       "title": "Una paloma busca tierra",
-      "text": "Después de enviar un cuervo, Noé envió una paloma.",
+      "text": "Para saber si la tierra ya estaba seca, Noé soltó un cuervo y después una paloma. La primera vez, la paloma no encontró dónde descansar y regresó al arca.",
       "image": "images/noe-y-el-arca/09-noe-envia-la-paloma.webp",
+      "verse": {
+        "text": "También soltó una paloma para ver si el agua se había retirado y si la paloma podía encontrar suelo seco…",
+        "reference": "Génesis 8:8"
+      },
       "interaction": {
         "type": "SWIPE",
         "hint": "Desliza para acompañar el vuelo de la paloma"
@@ -94,43 +122,55 @@
     {
       "id": "la-paloma-regresa",
       "title": "Una hoja trae esperanza",
-      "text": "La paloma regresó con una hoja de olivo en el pico.",
-      "image": "images/noe-y-el-arca/10-la-paloma-regresa.webp"
+      "text": "Siete días después, Noé volvió a soltar la paloma. Esta vez regresó con una hoja de olivo en el pico: ¡las plantas estaban creciendo otra vez!",
+      "image": "images/noe-y-el-arca/10-la-paloma-regresa.webp",
+      "verse": {
+        "text": "Después de esperar otros siete días, Noé volvió a soltar la paloma; esta vez la paloma regresó a él por la tarde con una hoja de olivo fresca en su pico…",
+        "reference": "Génesis 8:10-11"
+      }
     },
     {
       "id": "salir-del-arca",
       "title": "De nuevo en tierra firme",
-      "text": "Cuando Dios lo indicó, todos salieron y Noé le dio gracias.",
-      "image": "images/noe-y-el-arca/11-salir-del-arca.webp"
+      "text": "Cuando la tierra se secó, Dios le dijo a Noé que saliera con su familia y con todos los animales. Lo primero que hizo Noé fue construir un altar para adorar a Dios y darle gracias.",
+      "image": "images/noe-y-el-arca/11-salir-del-arca.webp",
+      "verse": {
+        "text": "Todos ustedes—tú y tu esposa, y tus hijos y sus esposas—salgan del barco.",
+        "reference": "Génesis 8:16"
+      }
     },
     {
       "id": "la-promesa-de-dios",
-      "title": "Una promesa de esperanza",
-      "text": "¿Cómo puedes cuidar hoy lo que Dios te confía?",
+      "title": "Una promesa en el cielo",
+      "text": "Dios prometió que nunca más destruiría la tierra con un diluvio, y puso el arco iris en las nubes como señal. Dios siempre cumple sus promesas. ¿Cómo puedes darle gracias hoy?",
       "image": "images/noe-y-el-arca/12-la-promesa-de-dios.webp",
+      "verse": {
+        "text": "He puesto mi arco iris en las nubes. Esa es la señal de mi pacto con ustedes y con toda la tierra.",
+        "reference": "Génesis 9:13"
+      },
       "interaction": {
         "type": "CHOICE",
         "options": [
           {
+            "id": "confiar-en-dios",
+            "label": "Confiar en Dios",
+            "icon": "🌈",
+            "response": "Noé obedeció a Dios aunque todavía no veía la lluvia. Tú también puedes confiar en Él: orar cuando tengas miedo y recordar que Dios siempre cumple sus promesas."
+          },
+          {
             "id": "cuidar-animales",
             "label": "Cuidar a los animales",
             "icon": "🐑",
-            "response": "Noé llevó comida para todos los animales del arca. Tú puedes darle agua y comida a tu mascota o tratar con cariño a los animales que encuentres. Cuidar lo que Dios creó es una forma de darle gracias."
+            "response": "Noé daba de comer a los animales dentro del arca. Tú puedes darle agua y comida a tu mascota o tratar con cariño a los animales que encuentres. Cuidar lo que Dios creó es una forma de darle gracias."
           },
           {
             "id": "ayudar-familia",
             "label": "Ayudar a mi familia",
             "icon": "💙",
             "response": "Noé y su familia esperaron juntos dentro del arca. Puedes ayudar en casa, tener paciencia con tus hermanos o dar un abrazo a quien lo necesite. Cuidar a tu familia es una forma de darle gracias a Dios."
-          },
-          {
-            "id": "cuidar-naturaleza",
-            "label": "Cuidar la naturaleza",
-            "icon": "🌿",
-            "response": "Dios prometió que nunca más destruiría la tierra con un diluvio y puso el arcoíris como señal. Puedes regar una planta, no tirar basura o cuidar el agua. Cuidar lo que Dios creó es una forma de darle gracias."
           }
         ],
-        "response": "Dios prometió no volver a destruir toda vida con un diluvio; cuidar su creación es una forma de mostrar gratitud."
+        "response": "Dios siempre cumple sus promesas. Confiar en Él y cuidar lo que creó es una forma de darle gracias."
       }
     }
   ]
