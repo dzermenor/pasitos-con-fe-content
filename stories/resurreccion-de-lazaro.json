@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 2,
+  "id": "resurreccion-de-lazaro",
+  "version": 1,
+  "title": "La resurrección de Lázaro",
+  "subtitle": "Jesús acompaña a sus amigos en el dolor y les muestra su poder",
+  "bibleReference": "Juan 11:1-44",
+  "estimatedMinutes": 5,
+  "coverImage": "images/resurreccion-de-lazaro/01-cover.webp",
+  "source": {
+    "narrative": "Narración original en español sencillo basada en Juan 11:1-44, consultado en la Nueva Traducción Viviente (NTV).",
+    "verseTranslation": "Nueva Traducción Viviente (NTV), consultada como referencia; sin versículos reproducidos textualmente.",
+    "license": "Narración original del proyecto; no se reproducen versículos de la NTV.",
+    "sourceUrl": "https://www.bible.com/es/bible/127/JHN.11.NTV"
+  },
+  "scenes": [
+    {
+      "id": "cover",
+      "title": "La resurrección de Lázaro",
+      "text": "Lázaro era amigo de Jesús. Cuando su familia vivió un momento muy triste, Jesús fue a encontrarlos.",
+      "image": "images/resurreccion-de-lazaro/01-cover.webp",
+      "actionLabel": "Comenzar"
+    },
+    {
+      "id": "enfermedad",
+      "title": "Lázaro estaba enfermo",
+      "text": "En Betania vivían Lázaro y sus hermanas, Marta y María. Un día, Lázaro se enfermó y ellas lo cuidaron.",
+      "image": "images/resurreccion-de-lazaro/02-enfermedad.webp"
+    },
+    {
+      "id": "mensaje",
+      "title": "Un mensaje para Jesús",
+      "text": "Marta y María enviaron un mensaje a Jesús: su querido amigo Lázaro estaba muy enfermo.",
+      "image": "images/resurreccion-de-lazaro/03-mensaje.webp"
+    },
+    {
+      "id": "jesus-espera",
+      "title": "Jesús esperó dos días",
+      "text": "Aunque amaba a sus amigos, Jesús se quedó donde estaba dos días más. Después explicó a sus discípulos que Lázaro había muerto y que irían a verlo.",
+      "image": "images/resurreccion-de-lazaro/04-jesus-espera.webp"
+    },
+    {
+      "id": "cuatro-dias",
+      "title": "Cuatro días en la tumba",
+      "text": "Cuando Jesús llegó a Betania, Lázaro llevaba cuatro días sepultado. Muchos judíos habían ido a consolar a Marta y María por la muerte de su hermano.",
+      "image": "images/resurreccion-de-lazaro/05-cuatro-dias.webp"
+    },
+    {
+      "id": "marta-encuentra-a-jesus",
+      "title": "Marta sale a su encuentro",
+      "text": "Marta fue a recibir a Jesús. Le dijo cuánto le dolía la muerte de su hermano, pero seguía confiando en Dios.",
+      "image": "images/resurreccion-de-lazaro/06-marta-encuentra-a-jesus.webp"
+    },
+    {
+      "id": "resurreccion-y-vida",
+      "title": "Una promesa de vida",
+      "text": "Jesús le dijo a Marta que él era la resurrección y la vida. Ella respondió que creía que Jesús era el Mesías, el Hijo de Dios.",
+      "image": "images/resurreccion-de-lazaro/07-resurreccion-y-vida.webp"
+    },
+    {
+      "id": "maria-encuentra-a-jesus",
+      "title": "María también lo encuentra",
+      "text": "Marta avisó a María que Jesús había llegado. María salió a su encuentro llorando, y varias personas la siguieron.",
+      "image": "images/resurreccion-de-lazaro/08-maria-encuentra-a-jesus.webp"
+    },
+    {
+      "id": "jesus-lloro",
+      "title": "Jesús lloró",
+      "text": "Jesús vio llorar a María y a quienes la acompañaban. Se conmovió profundamente y él también lloró por su amigo.",
+      "image": "images/resurreccion-de-lazaro/09-jesus-lloro.webp"
+    },
+    {
+      "id": "correr-la-piedra",
+      "title": "Frente a la tumba",
+      "text": "Lázaro estaba sepultado en una cueva cerrada con una piedra. Jesús pidió a las personas que la movieran.",
+      "image": "images/resurreccion-de-lazaro/10-correr-la-piedra.webp",
+      "interaction": {
+        "type": "SWIPE",
+        "hint": "Desliza para ayudar a correr la piedra"
+      }
+    },
+    {
+      "id": "marta-tiene-una-duda",
+      "title": "Marta tenía una duda",
+      "text": "Marta recordó que Lázaro llevaba cuatro días allí. Jesús la animó a creer y a ver lo que Dios haría.",
+      "image": "images/resurreccion-de-lazaro/11-marta-tiene-una-duda.webp"
+    },
+    {
+      "id": "jesus-ora",
+      "title": "Jesús ora",
+      "text": "Después de mover la piedra, Jesús miró al cielo y dio gracias a su Padre. Habló en voz alta para que quienes estaban allí creyeran que Dios lo había enviado.",
+      "image": "images/resurreccion-de-lazaro/12-jesus-ora.webp"
+    },
+    {
+      "id": "lazaro-sal-de-ahi",
+      "title": "Jesús llamó a Lázaro",
+      "text": "Jesús llamó a Lázaro con voz fuerte. Todos miraron hacia la entrada de la cueva.",
+      "image": "images/resurreccion-de-lazaro/13-lazaro-sal-de-ahi.webp"
+    },
+    {
+      "id": "lazaro-sale",
+      "title": "¡Lázaro salió vivo!",
+      "text": "Lázaro salió de la tumba, todavía envuelto en las telas con las que lo habían sepultado. Jesús pidió que se las quitaran.",
+      "image": "images/resurreccion-de-lazaro/14-lazaro-sale.webp"
+    },
+    {
+      "id": "reencuentro",
+      "title": "Un reencuentro lleno de alegría",
+      "text": "Marta y María volvieron a estar con su hermano. Muchas personas que vieron lo sucedido creyeron en Jesús. Cuando estás triste, ¿con quién te gustaría hablar?",
+      "image": "images/resurreccion-de-lazaro/15-reencuentro.webp",
+      "interaction": {
+        "type": "CHOICE",
+        "options": [
+          {
+            "id": "jesus",
+            "label": "Con Jesús",
+            "icon": "🙏",
+            "response": "Puedes contarle a Jesús cómo te sientes. En esta historia, él escuchó a sus amigos y lloró con ellos."
+          },
+          {
+            "id": "familia",
+            "label": "Con mi familia",
+            "icon": "🏠",
+            "response": "Puedes contarle a alguien de tu familia cómo te sientes y pedirle que te acompañe."
+          },
+          {
+            "id": "confianza",
+            "label": "Con alguien de confianza",
+            "icon": "🤝",
+            "response": "Hablar con alguien de confianza puede ayudarte a sentirte acompañado cuando estás triste."
+          }
+        ]
+      }
+    }
+  ]
+}
